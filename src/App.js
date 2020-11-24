@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import * as cmp from './components';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <cmp.Pizza />
     </div>
   );
 }
